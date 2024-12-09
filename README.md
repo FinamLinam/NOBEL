@@ -34,7 +34,7 @@ Project
 ├── insert_laureates.py
 ├── laureates.db
 ├── README.md
-└── requirements.txt
+└── requirements.txt```
 
 
 The front page is called index.html, and it's where all the laureates are shown and categorized into containers. By clicking on one of them, the user will be sent to the second page called laureate.html. These two files are found in the templates folders. Since there are 20 different laureates in this project, and we dont want to have 20 different HTML pages (for reasons such as if we want to change something stylistic, we would have to change all of them), we use Flask to make the HTML pages dynamic. Hence, we only have two templates. But in reality, 1 + 20 = 21 different pages.
